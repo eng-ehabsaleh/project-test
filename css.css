@@ -1,4 +1,4 @@
-header {
+/* header {
   background-color: rgb(0, 0, 0);
   color: white;
   height: 85px;
@@ -49,4 +49,121 @@ th {
 }
 td {
   border: solid 1px black;
+}
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+
+.stars {
+  width: 300px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.stars {
+  list-style: none;
+  font-size: 1rem;
+  padding-left: 20px;
+  color: bisque;
+}
+.star:first-child {
+  padding: 0;
+}
+.orange {
+  color: orange;
+}
+.yellow {
+  color: yellow;
+}
+.thanks {
+  display: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(https://picsum.photos/300/300/?random);
+  background-position: center;
+  background-size: cover;
+  font-family: sans-serif;
+  margin-top: 40px;
+}
+legend {
+  width: 800px;
+  background-color: rgb(0, 0, 0, 0.6);
+  /* margin: 30px; */
+  color: #ffffff;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  border-radius: 15px 15px 0px 0px;
+}
+
+#fieldset {
+  background-color: rgb(0, 0, 0, 0.5);
+  width: 800px;
+  margin: auto;
+}
+/* form {
+  padding: 10px;
+} */
+
+label {
+  margin-left: 25px;
+  margin-top: 40px;
+  padding: 10px;
+  width: 125px;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
+#first {
+  position: relative;
+  right: -500px;
+  margin: 10px;
+}
+#second {
+  position: relative;
+  right: -478px;
+  margin: 10px;
+}
+#third {
+  position: relative;
+  right: -315px;
+  margin: 10px;
+}
+#fourth {
+  position: relative;
+  right: -2px;
+  margin: 10px;
+}
+#fifth {
+  position: relative;
+  right: -152px;
+  margin: 10px;
+}
+#feedback {
+  position: relative;
+  right: -206px;
+  margin: 10px;
+}
+.star-rating {
+  position: relative;
+  right: -230px;
+  padding-bottom: 30px;
+}
+#submetb {
+  position: relative;
+  right: -370px;
+}
+#rateid {
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+}
+#reviwfeed {
+  color: blue;
+  background-color: cornsilk;
+  padding: 20px;
 }
